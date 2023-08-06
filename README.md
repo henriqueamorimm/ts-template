@@ -6,7 +6,10 @@ Um template para typescript (estou começando agora!) 🔵
 1. Instale o Node.js no link: https://nodejs.dev/pt/download/
 ```
 ```
-2. Após isso, execute o comando "npm run main" ✅
+2. Após isso, execute o comando "npm install" 
  ```
+```
+3. Para finalizar, execute: "npm run main"
+```
 
 ## Caso puder, me siga ❤
