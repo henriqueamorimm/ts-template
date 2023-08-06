@@ -1,0 +1,43 @@
+----- COMANDOS TYPESCRIPT NODE -----
+
+Criar projeto (Gerar tsconfig.json por exemplo):
+npx tsc --init
+
+Compilar arquivo TypeScript:
+npx tsc
+
+Executar arquivo TypeScript diretamente com ts-node:
+npx ts-node arquivo.ts
+
+Executar arquivo TypeScript com ts-node-dev (com recarga automática em alterações):
+npx ts-node-dev arquivo.ts
+
+Compilar e executar arquivo TypeScript com node:
+npx tsc arquivo.ts && node arquivo.js
+
+Instalar dependências e salvar em 'dependencies' (uso normal):
+npm install nome-da-dependencia
+
+Instalar dependências e salvar em 'devDependencies' (uso em desenvolvimento):
+npm install nome-da-dependencia --save-dev
+
+Desinstalar uma dependência:
+npm uninstall nome-da-dependencia
+
+Listar todas as dependências (locais e globais):
+npm list -g
+
+Executar um script definido no 'package.json':
+npm run nome-do-script
+
+Executar um script do TypeScript sem compilar manualmente:
+npx ts-node -T script.ts
+
+Executar um script do TypeScript usando ts-node-dev:
+npx ts-node-dev script.ts
+
+Executar um arquivo JavaScript diretamente com node:
+node arquivo.js
+
+Atualizar pacotes para suas versões mais recentes:
+npm update
